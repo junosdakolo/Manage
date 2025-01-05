@@ -25,7 +25,24 @@
             </div>
             <!-- Button -->
              <a href="" class="hidden md:block p-3 px-6 text-white bg-red-400 rounded-full baseline hover:bg-red-200"> Get Started</a>
+
+             <!-- Hamburger Icon -->
+            <button      id="menu-btn" class="open hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
          </div>
+         <!-- Mobile Menu -->
+          <div class="md:hidden">
+            <div id="menu" class="absolute flex flex-col hidden items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#Pricing.html" class="hover:text-red-300">Pricing</a>
+                <a href="#Product.html" class="hover:text-red-300">Product</a>
+                <a href="#AboutUS.html" class="hover:text-red-300">About Us</a>
+                <a href="#Careers.html" class="hover:text-red-300">Careers</a>
+                <a href="#Community.html" class="hover:text-red-300">Community</a>
+            </div>
+          </div>
     </nav>
     <!-- Hero Section -->
     <section id="hero">
@@ -210,5 +227,6 @@
                
             </div>
     </footer>
+    <script src="../js/index.js"></script>
 </body>
 </html>
